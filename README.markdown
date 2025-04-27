@@ -22,7 +22,7 @@ pip install tensorflow tensorflow-datasets matplotlib seaborn
    - The "mini Speech Commands" dataset can be loaded directly in the notebook using `tfds.load('speech_commands', split='train', as_supervised=True)`. Ensure you have TensorFlow Datasets installed.
 
 2. **Run the Notebook**:
-   - Open the Jupyter Notebook (`simple_audio(1).ipynb`) in your preferred environment (e.g., Google Colab, JupyterLab).
+   - Open the Jupyter Notebook (`project.ipynb`) in your preferred environment (e.g., Google Colab, JupyterLab).
    - Ensure all dependencies are installed.
    - Execute the cells in order to load the data, preprocess it, train the model, and evaluate its performance.
 
@@ -71,5 +71,3 @@ The notebook includes code to export the trained model with preprocessing steps 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-For any questions or feedback, please contact [Your Name/Email].
